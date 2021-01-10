@@ -5,9 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color:white!important;
+  background-color: #263997;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.img-icon {
+  width:2.5rem!important;
+  
+
+}
+.list-group-item{
+  border:none;
+  border-bottom:3px solid white;
+}
+td{
+  font-weight: bold;
+
+}
+tr:hover{
+
+  background-color: #4054b8;
+}
+
+.text-danger{
+  color:red!important;
+}
+.text-success{
+  color:rgb(60, 202, 60)!important;
 }
