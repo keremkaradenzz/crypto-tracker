@@ -19,6 +19,7 @@ const ListCrypto = ({ data }) => {
 
   return (
     <>
+    <div className="table-responsive">
       <table className="table text-white">
         <thead>
           <tr>
@@ -153,6 +154,7 @@ const ListCrypto = ({ data }) => {
           })}
         </tbody>
       </table>
+      </div>
     </>
   );
 };
